@@ -1,7 +1,6 @@
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GamingSite from "./components/GamingSite";
-import Game from "./components/Game";
+import Game from "./pages/Game";
 import PlayHopLogin from "./components/PlayHopLogin";
 
 function App() {
@@ -13,8 +12,6 @@ function App() {
         <Route path="/play-login" element={<PlayHopLogin />} />
       </Routes>
     </Router>
-)
-
+  );
+}
 export default App;
-
-
