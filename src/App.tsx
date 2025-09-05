@@ -13,8 +13,7 @@ function App() {
         <Route path="/play-login" element={<PlayHopLogin />} />
       </Routes>
     </Router>
-  );
-}
+)
 
 export default App;
 
